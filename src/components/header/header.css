@@ -50,9 +50,8 @@
 }
 .exact_date {
   position: absolute;
-
   inset: 0;
-  top: 100px;
+  top: 20px;
 }
 
 .date {

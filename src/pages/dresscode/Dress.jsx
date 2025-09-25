@@ -51,12 +51,8 @@ const DressCode = () => {
       answer: (
         <>
           <ul className="kos">
-            <li>
-              Men: Indian Bandhgala in Black or Blue / Navy Blue Suit
-            </li>
-            <li>
-              Women: Navy Blue Indian Sharara
-            </li>
+            <li>Men: Indian Bandhgala in Black or Blue / Navy Blue Suit</li>
+            <li>Women: Navy Blue Indian Sharara</li>
           </ul>
         </>
       ),

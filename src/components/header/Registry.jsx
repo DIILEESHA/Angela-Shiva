@@ -21,7 +21,15 @@ const Registry = () => {
             love.
           </p>
           <button className="rsvp_btn">
-            <Link to="/gifts" style={{ color: "#fff", textDecoration: "none" }}>
+            <Link
+              to="/gifts"
+              style={{
+                color: "#000",
+
+                fontWeight: "bold",
+                textDecoration: "none",
+              }}
+            >
               registry
             </Link>
           </button>
@@ -44,8 +52,9 @@ const Registry = () => {
             <Link
               to="/dress"
               style={{
-                color: "#fff",
-                background: "#000",
+                color: "#000",
+
+                fontWeight: "bold",
                 textDecoration: "none",
               }}
             >

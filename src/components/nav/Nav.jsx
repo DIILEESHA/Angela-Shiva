@@ -34,13 +34,15 @@ const Nav = () => {
         </div>
 
         <div className="nav_sub nil">
-          <h2 className="couple">Angela & Shiva</h2>
+          <Link style={{ textDecoration: "none", color: "inherit" }} to="/">
+            <h2 className="couple">Angela & Shiva</h2>
+          </Link>
         </div>
 
         <div className="nav_sub">
           <ul className="nav_ul">
             <li className="nav_li">
-              <Link to="/faq">FAQ</Link>
+              <Link to="/faq">Venue & Stay</Link>
             </li>
 
             {/* <li className="nav_li"> */}

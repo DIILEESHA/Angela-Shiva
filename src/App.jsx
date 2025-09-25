@@ -53,33 +53,8 @@ const AppContent = () => {
       </Routes>
       {!isAdminPage && (
         <footer className="footer">
-          <div className="footer-content">
-            <div className="instagram-profiles">
-              <a
-                href="https://www.instagram.com/tyreese011/profilecard/?igsh=MWdlN2NmbHg0M3AwZw=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="instagram-link his-profile"
-              >
-                <div className="instagram-box">
-                  <div className="instagram-icon"></div>
-                  <h2>Tyreese</h2>
-                </div>
-              </a>
-              <div className="footer-divider">•</div>
-              <a
-                href="https://www.instagram.com/haileprescod?igsh=MXRicnl1MTdkNzc2dw=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="instagram-link her-profile"
-              >
-                <div className="instagram-box">
-                  <div className="instagram-icon"></div>
-                  <h2>Haile</h2>
-                </div>
-              </a>h2
-            </div>
-            <div className="copyright">© 2025 Tyreese & Haile</div>
+          <div className="">
+            © 2025 - 2026 Angela & Shiva. All rights reserved.
           </div>
         </footer>
       )}

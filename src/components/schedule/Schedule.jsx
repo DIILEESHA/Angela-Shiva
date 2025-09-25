@@ -1,57 +1,63 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules"; // v10+
+import "swiper/css";
+import "swiper/css/pagination";
 import "./sc.css";
+
+const events = [
+  { dateBig: "7th", dateLine: "Feb 1pm", title: "Mehndi" },
+  { dateBig: "7th", dateLine: "Feb 8pm", title: "Sangeet" },
+  { dateBig: "8th", dateLine: "Feb 12:30pm", title: "Haldi" },
+  { dateBig: "8th", dateLine: "Feb 8pm", title: "Baraat & Varmala" },
+  { dateBig: "9th", dateLine: "Feb 1am", title: "Phera’s" },
+];
+
 const Schedule = () => {
   return (
     <div className="master">
       <div className="schedule_container">
         <div className="dolly">
           <h2 className="sc_title">Here's a sneak peek of</h2>
-
           <h1 className="sc">our special day's schedule</h1>
 
-          <div className="sc_grid guu">
-            <div className="sc_sub">
-              <h2 className="sc_time">
-                <span style={{ fontSize: "30px" }}>7th</span>
-                <br />
-                Feb 1pm
-              </h2>
-              <h2 className="event">Mehndi</h2>
-            </div>
-            <div className="sc_sub">
-              <h2 className="sc_time">
-                <span style={{ fontSize: "30px" }}>7th</span>
-                <br />
-                Feb 8pm
-              </h2>
-              <h2 className="event">Sangeet</h2>
-            </div>
+          {/* Desktop Grid (hidden on small devices) */}
+          <div className="sc_grid guu desktop-grid">
+            {events.map((ev, idx) => (
+              <div className="sc_sub " key={idx}>
+                <h2 className="sc_time">
+                  <span style={{ fontSize: "30px" }}>{ev.dateBig}</span>
+                  <br />
+                  {ev.dateLine}
+                </h2>
+                <h2 className="event">{ev.title}</h2>
+              </div>
+            ))}
+          </div>
 
-            <div className="sc_sub">
-              <h2 className="sc_time">
-                <span style={{ fontSize: "30px" }}>8th</span>
-                <br />
-                Feb 12:30pm
-              </h2>
-              <h2 className="event">Haldi</h2>
-            </div>
-
-            <div className="sc_sub">
-              <h2 className="sc_time">
-                <span style={{ fontSize: "30px" }}>8th</span>
-                <br />
-                Feb 8pm
-              </h2>
-              <h2 className="event">Baraat & Varmala</h2>
-            </div>
-            <div className="sc_sub">
-              <h2 className="sc_time">
-                <span style={{ fontSize: "30px" }}>8th</span>
-                <br />
-                Feb 8pm
-              </h2>
-              <h2 className="event">Baraat & Varmala</h2>
-            </div>
+          {/* Mobile Swiper (hidden on larger devices) */}
+          <div className="mobile-swiper">
+            <Swiper
+              modules={[Autoplay, Pagination]}
+              spaceBetween={20}
+              slidesPerView={2}
+              loop={true}
+              autoplay={{ delay: 2500, disableOnInteraction: false }}
+              pagination={{ clickable: true }}
+            >
+              {events.map((ev, idx) => (
+                <SwiperSlide key={idx}>
+                  <div className="sc_sub slide-sub">
+                    <h2 className="sc_time">
+                      <span style={{ fontSize: "30px" }}>{ev.dateBig}</span>
+                      <br />
+                      {ev.dateLine}
+                    </h2>
+                    <h2 className="event">{ev.title}</h2>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>

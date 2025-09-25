@@ -12,7 +12,7 @@ const OurStory = () => {
     {
       title: "The Mehndi",
       date: "7th Feb, 1pm",
-      image: "https://i.imgur.com/XFc2m1m.jpeg",
+      image: "https://i.imgur.com/vDSZc6w.jpeg",
       description: `Henna, laughter, and good vibes! Mehndi is the tradition of applying
       henna (a temporary, natural dye) to the bride's hands and feet as a
       celebratory event. This symbolizes blessings, joy, and love for the
@@ -24,7 +24,7 @@ const OurStory = () => {
     {
       title: "The Sangeet",
       date: "7th Feb, 8pm",
-      image: "https://i.imgur.com/d8VURVk.jpeg",
+      image: "https://i.imgur.com/ng6TUcF.jpeg",
       description: `A night of rhythm, sparkle, and dance battles. It's a custom before
       the wedding for guests to dance, drink and celebrate with the couple.
       From Gallan Goodiyaan to Saddi Galli, this is your chance to hit the
@@ -36,7 +36,7 @@ const OurStory = () => {
     {
       title: "The Haldi",
       date: "8th Feb, 12:30pm",
-      image: "https://i.imgur.com/mUZuD4W.jpeg",
+      image: "https://i.imgur.com/chdHaZ0.jpeg",
       description: `Family and friends gather to apply the haldi (turmeric paste), sing,
       dance, and play games to celebrate. A pre-wedding Indian tradition
       where turmeric-based paste is applied to the bride and groom to bless
@@ -47,7 +47,7 @@ const OurStory = () => {
     {
       title: "The Baraat & Varmala",
       date: "8th Feb, 7pm",
-      image: "https://i.imgur.com/kpnFz0x.jpeg",
+      image: "https://i.imgur.com/EeN7XlA.jpeg",
       description: `Part 1 of the actual grand finale of the wedding, The Baraat is a
       dancing congregation led by groom’s squad as they make their way to the
       wedding stage and are received by the bride’s family. Once the bride
@@ -57,7 +57,7 @@ const OurStory = () => {
     {
       title: "The Phera’s",
       date: "9th Feb, 1am",
-      image: "https://i.imgur.com/U4sgRmx.jpeg",
+      image: "https://i.imgur.com/ELRB1sg.jpeg",
       description: `The sacred vows. Yes, it’s late — but auspicious! Post dinner, drinks
       and a rested round of gossip, we conclude with the Phera’s at 1am on
       9th Feb. The Phera’s is the religious solemnization ceremony performed

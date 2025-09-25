@@ -13,7 +13,7 @@ const Location = () => {
         <div className="header_sub jur">
           <div class="image-wrappers">
             <img
-              src="https://i.imgur.com/nKlzRsT.jpeg"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/56/bc/2e/building-exterior.jpg?w=1000&h=-1&s=1"
               alt=""
               className="r_img nanaa"
             />
@@ -34,15 +34,15 @@ const Location = () => {
 
       <div className="naughty plyan  ">
         <div className="naughty_sub">
-          <p className="header_p bos">Saturday, July 19, 2025</p>
+          <p className="header_p bos">Sunday, February 08, 2026</p>
         </div>
         <div className="naughty_sub">
           <p className="header_p boss">
-            Hyatt Regency Trinidad
+            Fiestaa Resorts,
             <br />
-            1 Wrightson Road
+            Devanahalli Road,
             <br />
-            Port of Spain, Trinidad and Tobago
+            Bengaluru 562149
           </p>
         </div>
       </div>

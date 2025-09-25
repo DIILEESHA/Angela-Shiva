@@ -60,7 +60,8 @@ const Rsvp = () => {
           <h2 className="rsvp_ttle">RSVP</h2>
 
           <p className="rsvp_p">
-            We are so excited to celebrate our special day with you! Kindly RSVP BY July 1st 2025.
+            We are so excited to celebrate our special day with you! Kindly RSVP
+            BY July 1st 2025.
           </p>
 
           <div className="form_area">
@@ -102,7 +103,9 @@ const Rsvp = () => {
                       checked={formData.attendance === "decline"}
                       onChange={handleChange}
                     />
-                    <span className="option_text">No, regretfully declining</span>
+                    <span className="option_text">
+                      No, regretfully declining
+                    </span>
                   </label>
                 </div>
               </div>
@@ -110,7 +113,9 @@ const Rsvp = () => {
               {formData.attendance === "accept" && (
                 <>
                   <div className="rsvp_inputer_section">
-                    <label className="rsvp_label">Number of Guests Attending</label>
+                    <label className="rsvp_label">
+                      Number of Guests Attending
+                    </label>
                     <div className="attendance_options">
                       <label className="option_label">
                         <input
@@ -212,7 +217,7 @@ const Rsvp = () => {
 
               <div className="rsvp_inputer_section">
                 <label htmlFor="message" className="rsvp_label">
-                  Would you like to leave a special message for the bride and groom?
+                  Would you like to leave a special message for Angela & Shiva?
                 </label>
                 <textarea
                   name="message"
