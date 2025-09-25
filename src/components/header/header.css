@@ -22,6 +22,7 @@
 .pasiya {
   object-fit: cover;
   object-position: center 55%;
+  margin-top: 60px;
   height: 80vh;
   width: 100%;
 }
