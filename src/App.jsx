@@ -42,14 +42,14 @@ const AppContent = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/story" element={<OurStory />} />
+        <Route path="/wedding-events" element={<OurStory />} />
         <Route path="/dress" element={<DressCode />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/rsvp" element={<Rsvp />} />
         <Route path="/admin" element={<AdminDashboard />} />
-        <Route path="/gifts" element={<GiftRegistry />} />
+        {/* <Route path="/gifts" element={<GiftRegistry />} /> */}
 
-        <Route path="/product-form" element={<ProductForm />} />
+        {/* <Route path="/product-form" element={<ProductForm />} /> */}
       </Routes>
       {!isAdminPage && (
         <footer className="footer">

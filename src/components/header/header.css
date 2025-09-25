@@ -21,6 +21,7 @@
 
 .pasiya {
   object-fit: cover;
+    object-position: center 55%;
   height: 80vh;
   width: 100%;
 }
@@ -79,7 +80,9 @@
   }
 
   .pasiya {
-    height: 50vh;
+    height: 70vh;
+    margin-top: 50px;
+    object-position: center 65%;
   }
 
   .naughty {
@@ -94,7 +97,7 @@
   .naughty_img {
     width: 100%;
     object-fit: cover;
-    height: 30vh;
+    height: 40vh;
   }
 
   .naught_sub {

@@ -9,7 +9,9 @@
   overflow: hidden;
 }
 
-
+.dress-ref-img{
+  width: 100%;
+}
 .kos li{
     line-height:200%;
 

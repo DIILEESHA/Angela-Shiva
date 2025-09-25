@@ -3,7 +3,7 @@ import { FaPlus, FaMinus } from "react-icons/fa6";
 import "./dress.css";
 
 const DressCode = () => {
-  const [activeIndex, setActiveIndex] = useState("");
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -87,6 +87,33 @@ const DressCode = () => {
             )}
           </div>
         ))}
+
+        {/* Image for reference subsection */}
+        <div className="faq_sub_card">
+          <div className="faq_top" onClick={() => toggleAccordion("image")}>
+            <div className="faq_top_t">
+              <h2 className="faq_qs">Image for reference</h2>
+            </div>
+            <div className="faq_top_t">
+              {activeIndex === "image" ? <FaMinus /> : <FaPlus />}
+            </div>
+          </div>
+
+          <div className="line"></div>
+
+          {activeIndex === "image" && (
+            <div className="faq_ans">
+              <div className="faq_ans_p">
+             
+                  <img
+                    src="https://i.imgur.com/YrPLmd5.png"
+                    alt="Dress reference"
+                    className="dress-ref-img"
+                  />
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

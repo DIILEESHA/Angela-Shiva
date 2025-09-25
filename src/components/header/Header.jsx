@@ -35,7 +35,7 @@ const Header = () => {
           </p>
         </div>
         <div className="header_sub ty">
-                 <video
+          <video
             src={videos}
             className="header_img nasiya"
             autoPlay
@@ -48,17 +48,23 @@ const Header = () => {
 
       <div className="naughty">
         <div className="naughty_sub">
-          <img
-            src="https://i.imgur.com/9odwY2h.jpeg"
-            alt=""
+          <video
+            src={videos}
             className="naughty_img"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         </div>
         <div className="naughty_sub">
-          <img
-            src="https://i.imgur.com/AXpgvPB.jpeg"
-            alt=""
+                  <video
+            src={video}
             className="naughty_img"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         </div>
       </div>

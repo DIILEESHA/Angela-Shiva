@@ -23,12 +23,12 @@ const Nav = () => {
             {/* <li className="nav_li"> */}
             {/* <Link to="/">Home</Link> */}
             {/* </li> */}
+            <li className="nav_li">
+              <Link to="/wedding-events">Wedding Events</Link>
+            </li>
 
             <li className="nav_li">
               <Link to="/dress">What to wear</Link>
-            </li>
-            <li className="nav_li">
-              <Link to="/story">Wedding Events</Link>
             </li>
           </ul>
         </div>
@@ -61,20 +61,17 @@ const Nav = () => {
           <li onClick={toggleMobileMenu}>
             <Link to="/">Home</Link>
           </li>
-
           <li onClick={toggleMobileMenu}>
-            <Link to="/story">Our Story</Link>
+            <Link to="/wedding-events">Wedding Events</Link>
           </li>
+
           <li onClick={toggleMobileMenu}>
             <Link to="/dress">What to wear</Link>
           </li>
           <li onClick={toggleMobileMenu}>
-            <Link to="/faq">FAQ</Link>
+            <Link to="/faq">Venue & Stay</Link>
           </li>
 
-          <li onClick={toggleMobileMenu}>
-            <Link to="/gifts">Registry</Link>
-          </li>
           <li onClick={toggleMobileMenu}>
             <Link to="/rsvp">RSVP</Link>
           </li>

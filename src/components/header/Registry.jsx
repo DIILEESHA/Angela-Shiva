@@ -9,7 +9,7 @@ const Registry = () => {
           <h2 className="r_title">The Events</h2>
           <div class="image-wrapper">
             <img
-              src="https://ik.imagekit.io/fh2hj1ayv/website%20registry.jpg?updatedAt=1747553143737"
+              src="https://i.imgur.com/QUlD666.jpeg"
               alt=""
               className="r_img"
             />
@@ -22,7 +22,7 @@ const Registry = () => {
           </p>
           <button className="rsvp_btn">
             <Link
-              to="/gifts"
+              to="/wedding-events"
               style={{
                 color: "#000",
 
@@ -30,7 +30,7 @@ const Registry = () => {
                 textDecoration: "none",
               }}
             >
-              registry
+              Wedding Events
             </Link>
           </button>
         </div>

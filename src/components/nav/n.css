@@ -25,13 +25,20 @@
 
 .mafia {
   border: 1px solid var(--text-color);
+  border: 1px solid #3333336e;
+
   padding: 15px 25px;
   transition: all 0.3s ease;
+  font-weight: bold;
+
 }
 
 .mafia:hover {
-  background-color: var(--text-color);
-  color: var(--bc);
+  background-color: #ffdde6;
+  /* color: #fff; */
+  border: 1px solid #33333310;
+  color: #000;
+  font-weight: bold;
 }
 
 .couple {
