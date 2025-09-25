@@ -38,9 +38,9 @@ const AdminDashboard = () => {
   const [password, setPassword] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [showPasswordModal, setShowPasswordModal] = useState(true);
-  const [activeTab, setActiveTab] = useState("gifts");
+  const [activeTab, setActiveTab] = useState("rsvps");
 
-  const ADMIN_PASSWORD = "Tyreese123"; // Change this
+  const ADMIN_PASSWORD = "anjelawedding2026"; // Change this
 
   const productColumns = [
     {
@@ -368,33 +368,7 @@ const AdminDashboard = () => {
         </div>
 
         <Tabs activeKey={activeTab} onChange={setActiveTab}>
-          <TabPane tab="Gift Registry" key="gifts">
-            {loading ? (
-              <div style={{ textAlign: "center", padding: "50px" }}>
-                <Spin size="large" />
-              </div>
-            ) : products.length === 0 ? (
-              <Result
-                status="404"
-                title="No Products Found"
-                subTitle="There are no products in the registry yet."
-              />
-            ) : (
-              <Table
-                columns={productColumns}
-                dataSource={filteredProducts}
-                rowKey="id"
-                bordered
-                size="middle"
-                scroll={{ x: "max-content" }}
-                pagination={{
-                  pageSize: 10,
-                  showSizeChanger: true,
-                  pageSizeOptions: ["10", "20", "50", "100"],
-                }}
-              />
-            )}
-          </TabPane>
+      
           <TabPane tab="RSVPs" key="rsvps">
             {loading ? (
               <div style={{ textAlign: "center", padding: "50px" }}>
