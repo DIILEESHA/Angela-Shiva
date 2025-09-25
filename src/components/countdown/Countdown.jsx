@@ -3,16 +3,22 @@ import "./c.css";
 
 const Countdown = () => {
   const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+    days: "000",
+    hours: "00",
+    minutes: "00",
+    seconds: "00",
   });
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const weddingDate = new Date("2026-02-08T00:00:00");
-      const now = new Date();
+      // Wedding date in IST (India Standard Time)
+      const weddingDate = new Date("2026-02-08T00:00:00+05:30");
+
+      // Current time converted to IST
+      const now = new Date(
+        new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" })
+      );
+
       const difference = weddingDate - now;
 
       if (difference > 0) {
@@ -31,7 +37,7 @@ const Countdown = () => {
     };
 
     const timer = setInterval(calculateTimeLeft, 1000);
-    calculateTimeLeft(); // Initial calculation
+    calculateTimeLeft(); // initial run
 
     return () => clearInterval(timer);
   }, []);
