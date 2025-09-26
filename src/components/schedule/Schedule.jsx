@@ -25,12 +25,14 @@ const Schedule = () => {
           <div className="sc_grid guu desktop-grid">
             {events.map((ev, idx) => (
               <div className="sc_sub " key={idx}>
+                <h2 className="event">{ev.title}</h2>
+                <br />
+                <br />
                 <h2 className="sc_time">
                   <span style={{ fontSize: "30px" }}>{ev.dateBig}</span>
                   <br />
                   {ev.dateLine}
                 </h2>
-                <h2 className="event">{ev.title}</h2>
               </div>
             ))}
           </div>
@@ -40,7 +42,7 @@ const Schedule = () => {
             <Swiper
               modules={[Autoplay, Pagination]}
               spaceBetween={20}
-              slidesPerView={2}
+              slidesPerView={1}
               loop={true}
               autoplay={{ delay: 2500, disableOnInteraction: false }}
               pagination={{ clickable: true }}
@@ -48,12 +50,13 @@ const Schedule = () => {
               {events.map((ev, idx) => (
                 <SwiperSlide key={idx}>
                   <div className="sc_sub slide-sub">
+                    <h2 className="event">{ev.title}</h2>
+                    <br />
                     <h2 className="sc_time">
                       <span style={{ fontSize: "30px" }}>{ev.dateBig}</span>
                       <br />
                       {ev.dateLine}
                     </h2>
-                    <h2 className="event">{ev.title}</h2>
                   </div>
                 </SwiperSlide>
               ))}

@@ -13,7 +13,7 @@ const Location = () => {
         <div className="header_sub jur">
           <div class="image-wrappers">
             <img
-              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/56/bc/2e/building-exterior.jpg?w=1000&h=-1&s=1"
+              src="https://r1imghtlak.mmtcdn.com/ad82115a1e6411eaa24b0242ac110003.jpg"
               alt=""
               className="r_img nanaa"
             />

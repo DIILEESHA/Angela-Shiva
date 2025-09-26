@@ -8,7 +8,7 @@ const Header = () => {
     <div className="header_container">
       <div className="header_grid">
         <div className="exact_date">
-          <h2 className="date">08 · 02 · 2026</h2>
+          <h2 className="date">09 · 02 · 2026</h2>
         </div>
         <div className="header_sub ty">
           <video
@@ -30,8 +30,9 @@ const Header = () => {
             playsInline
           />
           <p className="header_p hg">
-            Celebrating every chapter that brought us here… as our forever
-            begins now
+            Sa huli palagi, babalik pa rin sa yakap mo Hanggang sa huli palagi,
+            Pipiliin kong maging sa'yo Ulit-ulitin man, nais kong malaman mong
+            Iyo ako
           </p>
         </div>
         <div className="header_sub ty">
@@ -58,7 +59,7 @@ const Header = () => {
           />
         </div>
         <div className="naughty_sub">
-                  <video
+          <video
             src={video}
             className="naughty_img"
             autoPlay

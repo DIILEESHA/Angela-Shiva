@@ -12,7 +12,7 @@ const Countdown = () => {
   useEffect(() => {
     const calculateTimeLeft = () => {
       // Wedding date in IST (India Standard Time)
-      const weddingDate = new Date("2026-02-08T00:00:00+05:30");
+      const weddingDate = new Date("2026-02-09T00:00:00+05:30");
 
       // Current time converted to IST
       const now = new Date(

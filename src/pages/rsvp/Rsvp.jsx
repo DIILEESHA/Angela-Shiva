@@ -61,7 +61,7 @@ const Rsvp = () => {
 
           <p className="rsvp_p">
             We are so excited to celebrate our special day with you! Kindly RSVP
-            BY December 1st 2025.
+            BY November 15th, 2025.
           </p>
 
           <div className="form_area">

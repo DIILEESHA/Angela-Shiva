@@ -18,6 +18,7 @@ import ScrollToTop from "../ScrollToTop";
 import GiftRegistry from "./pages/GiftRegistry"; // New import
 import ProductForm from "./components/GiftRegistry/ProductForm";
 import OurStory from "./components/OurStory";
+import Counter from "./components/countdown/Counter";
 
 // Homepage Component
 const Home = () => {
@@ -26,7 +27,8 @@ const Home = () => {
       <Header />
       <Schedule />
       <Location />
-      <Countdown />
+      <Counter />
+      {/* <Countdown /> */}
       <Registry />
     </>
   );

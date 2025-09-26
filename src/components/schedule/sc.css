@@ -27,9 +27,8 @@
   height: 100%;
   content: "";
   inset: 0;
-  background: linear-gradient(/* beige overlay */ rgba(0, 0, 0, 0.6));
+  background: rgba(0, 0, 0, 0.8);
 
-  filter: blur(9px);
 }
 
 .sc_title {
@@ -89,6 +88,7 @@
   font-family: "hel";
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
   line-height: 1.5;
   text-transform: uppercase;
 }
@@ -108,11 +108,10 @@
     display: none;
   }
 
-
-  .slide-sub{
+  .slide-sub {
     display: flex;
     flex-direction: column;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     align-items: center;
     justify-content: center;
   }
