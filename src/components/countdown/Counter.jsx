@@ -27,9 +27,7 @@ const Counter = () => {
       const hours = Math.floor(
         (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
-      const minutes = Math.floor(
-        (distance % (1000 * 60 * 60)) / (1000 * 60)
-      );
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       setTimeLeft({ days, hours, minutes, seconds });
@@ -55,7 +53,7 @@ const Counter = () => {
       <div className="cca_sub">
         <div className="cca_img">
           <img
-            src="https://i.imgur.com/ykfmZjp.jpeg"
+            src="https://i.imgur.com/wqHdqSM.jpeg"
             alt=""
             className="cc_img"
           />
@@ -64,13 +62,11 @@ const Counter = () => {
         <h2 className="cca_times">Hours</h2>
       </div>
 
-     
-
       <div className="cca_sub">
         <div className="cca_img">
           <img
-            src="https://i.imgur.com/wqHdqSM.jpeg"
             alt=""
+            src="https://i.imgur.com/ykfmZjp.jpeg"
             className="cc_img"
           />
         </div>
