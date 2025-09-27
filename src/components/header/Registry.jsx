@@ -7,11 +7,15 @@ const Registry = () => {
       <div className="r_grid">
         <div className="r_sub">
           <h2 className="r_title">The Events</h2>
-          <div class="image-wrapper">
-            <img
-              src="https://i.imgur.com/QUlD666.jpeg"
-              alt=""
+          <div class="image-wrapper vt">
+            <video
+              // src={videos}
+              src="https://i.imgur.com/uW5Eco8.mp4"
               className="r_img"
+              autoPlay
+              loop
+              muted
+              playsInline
             />
           </div>
 
@@ -36,11 +40,20 @@ const Registry = () => {
         </div>
         <div className="r_sub">
           <h2 className="r_title">What to wear</h2>
-          <div class="image-wrapper">
-            <img
+          <div class="image-wrapper vt">
+            {/* <img
               src="https://ik.imagekit.io/fh2hj1ayv/Website%20dress%20code.jpg?updatedAt=1747553148257"
               alt=""
+              /> */}
+
+            <video
+              // src={videos}
+              src="https://i.imgur.com/6N5tQOA.mp4"
               className="r_img"
+              autoPlay
+              loop
+              muted
+              playsInline
             />
           </div>
           <p className="jio">
