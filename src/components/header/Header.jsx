@@ -12,7 +12,8 @@ const Header = () => {
         </div>
         <div className="header_sub ty">
           <video
-            src={video}
+            // src={video}
+            src="https://i.imgur.com/6N5tQOA.mp4"
             className="header_img nasiya"
             autoPlay
             loop
@@ -22,7 +23,8 @@ const Header = () => {
         </div>
         <div className="header_sub jur">
           <video
-            src={videoss}
+            // src={videoss}
+            src="https://i.imgur.com/r6Hc0ys.mp4"
             className="header_img pasiya"
             autoPlay
             loop
@@ -37,7 +39,8 @@ const Header = () => {
         </div>
         <div className="header_sub ty">
           <video
-            src={videos}
+            // src={videos}
+            src="https://i.imgur.com/uW5Eco8.mp4"
             className="header_img nasiya"
             autoPlay
             loop
@@ -50,7 +53,9 @@ const Header = () => {
       <div className="naughty">
         <div className="naughty_sub">
           <video
-            src={videos}
+            // src={videos}
+            src="https://i.imgur.com/6N5tQOA.mp4"
+
             className="naughty_img"
             autoPlay
             loop
@@ -60,7 +65,9 @@ const Header = () => {
         </div>
         <div className="naughty_sub">
           <video
-            src={video}
+            // src={video}
+            src="https://i.imgur.com/uW5Eco8.mp4"
+
             className="naughty_img"
             autoPlay
             loop
