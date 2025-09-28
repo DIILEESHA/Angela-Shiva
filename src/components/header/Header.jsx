@@ -31,11 +31,7 @@ const Header = () => {
             muted
             playsInline
           />
-          <p className="header_p hg">
-            Sa huli palagi, babalik pa rin sa yakap mo Hanggang sa huli palagi,
-            Pipiliin kong maging sa'yo Ulit-ulitin man, nais kong malaman mong
-            Iyo ako
-          </p>
+   
         </div>
         <div className="header_sub ty">
           <video
@@ -49,13 +45,20 @@ const Header = () => {
           />
         </div>
       </div>
-
+       <p className="header_p sagi hg">
+            Sa huli palagi, babalik pa rin sa yakap mo
+            <br />
+            Hanggang sa huli palagi, pipiliin kong maging sa'yo
+            <br />
+            Ulit-ulitin man, nais kong malaman mong
+            <br />
+            Iyo ako
+          </p>
       <div className="naughty">
         <div className="naughty_sub">
           <video
             // src={videos}
             src="https://i.imgur.com/6N5tQOA.mp4"
-
             className="naughty_img"
             autoPlay
             loop
@@ -67,7 +70,6 @@ const Header = () => {
           <video
             // src={video}
             src="https://i.imgur.com/uW5Eco8.mp4"
-
             className="naughty_img"
             autoPlay
             loop
@@ -76,6 +78,16 @@ const Header = () => {
           />
         </div>
       </div>
+
+       <p className="header_p pagi hg">
+            Sa huli palagi, babalik pa rin sa yakap mo
+            <br />
+            Hanggang sa huli palagi, pipiliin kong maging sa'yo
+            <br />
+            Ulit-ulitin man, nais kong malaman mong
+            <br />
+            Iyo ako
+          </p>
     </div>
   );
 };

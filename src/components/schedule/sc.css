@@ -1,7 +1,7 @@
 /* Base Styles (Mobile First) */
 .schedule_container {
   padding: 60px 20px;
-  background-image: url("https://i.imgur.com/BNuwWII.jpeg");
+  background-image: url("https://i.imgur.com/fOVjhgC.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -12,7 +12,7 @@
   position: relative;
 }
 .mobile-swiper {
-  display: none;
+  /* display: none; */
 }
 .master {
   position: relative;
@@ -27,7 +27,7 @@
   height: 100%;
   content: "";
   inset: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -47,7 +47,7 @@
   margin: 0 auto 30px auto;
   text-align: center;
   font-family: "silk";
-  font-size: 32px;
+  font-size: 52px;
 }
 
 .sc_grid {
@@ -61,10 +61,15 @@
   bottom: 0;
 }
 
+.sc_sub{
+  margin-bottom:60px;
+}
+
 /* Each dot */
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
+  margin-top: 50px;
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 1; /* make fully visible */
 }
@@ -86,7 +91,7 @@
 
 .event {
   font-family: "hel";
-  font-size: 16px;
+  font-size: 36px;
   font-weight: 400;
   text-align: center;
   line-height: 1.5;
@@ -143,7 +148,7 @@
   }
 
   .sc {
-    font-size: 45px;
+    /* font-size: 45px; */
     width: 85%;
   }
 
@@ -151,9 +156,7 @@
     /* font-size: 16px; */
   }
 
-  .event {
-    font-size: 18px;
-  }
+ 
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -163,7 +166,7 @@
   }
 
   .sc {
-    font-size: 55px;
+    /* font-size: 55px; */
     width: 80%;
     margin-bottom: 50px;
   }
@@ -188,7 +191,7 @@
   }
 
   .sc {
-    font-size: 65px;
+    /* font-size: 65px; */
     width: 70%;
   }
 
@@ -209,10 +212,7 @@
     margin-bottom: 20px;
   }
 
-  .event {
-    font-size: 19px;
-    line-height: 27px;
-  }
+ 
 }
 
 /* 2K and 4K displays */
@@ -233,9 +233,7 @@
     font-size: 50px;
   }
 
-  .event {
-    font-size: 22px;
-  }
+ 
 }
 
 /* Landscape orientation adjustments for tablets */

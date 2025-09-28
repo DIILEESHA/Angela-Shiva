@@ -22,7 +22,7 @@ const Schedule = () => {
           <h1 className="sc">our special day's schedule</h1>
 
           {/* Desktop Grid (hidden on small devices) */}
-          <div className="sc_grid guu desktop-grid">
+          {/* <div className="sc_grid guu desktop-grid">
             {events.map((ev, idx) => (
               <div className="sc_sub " key={idx}>
                 <h2 className="event">{ev.title}</h2>
@@ -35,32 +35,44 @@ const Schedule = () => {
                 </h2>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Mobile Swiper (hidden on larger devices) */}
           <div className="mobile-swiper">
-            <Swiper
-              modules={[Autoplay, Pagination]}
-              spaceBetween={20}
-              slidesPerView={1}
-              loop={true}
-              autoplay={{ delay: 2500, disableOnInteraction: false }}
-              pagination={{ clickable: true }}
-            >
-              {events.map((ev, idx) => (
-                <SwiperSlide key={idx}>
-                  <div className="sc_sub slide-sub">
-                    <h2 className="event">{ev.title}</h2>
-                    <br />
-                    <h2 className="sc_time">
-                      <span style={{ fontSize: "30px" }}>{ev.dateBig}</span>
-                      <br />
-                      {ev.dateLine}
-                    </h2>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+           <Swiper
+  modules={[Autoplay, Pagination]}
+  spaceBetween={20}
+  slidesPerView={1}   // ✅ always define a default
+  loop={true}
+  autoplay={{ delay: 2500, disableOnInteraction: false }}
+  pagination={{ clickable: true }}
+  breakpoints={{
+    640: {
+      slidesPerView: 1, // small phones
+    },
+    768: {
+      slidesPerView: 2, // tablets
+    },
+    1024: {
+      slidesPerView: 3, // desktops
+    },
+  }}
+>
+  {events.map((ev, idx) => (
+    <SwiperSlide key={idx}>
+      <div className="sc_sub slide-sub">
+        <h2 className="event">{ev.title}</h2>
+        <br />
+        <h2 className="sc_time">
+          <span style={{ fontSize: "30px" }}>{ev.dateBig}</span>
+          <br />
+          {ev.dateLine}
+        </h2>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
           </div>
         </div>
       </div>

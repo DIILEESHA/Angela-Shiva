@@ -26,11 +26,8 @@ const Location = () => {
           style={{ display: "flex", flexDirection: "column" }}
         >
           <p className="header_p">
-            Fiestaa Resorts,
-            <br />
-            Devanahalli Road,
-            <br />
-            Bengaluru 562149
+            Fiestaa Resorts, Bengaluru. <br />
+            Lush lawns, spacious halls, and the perfect stage for love stories.
           </p>
           <button
             className="rsvp_btn"
@@ -57,13 +54,18 @@ const Location = () => {
         <div className="naughty_sub">
           <p className="header_p bos">Sunday, February 08, 2026</p>
         </div>
-        <div className="naughty_sub" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+        <div
+          className="naughty_sub"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <p className="header_p boss">
-            Fiestaa Resorts,
-            <br />
-            Devanahalli Road,
-            <br />
-            Bengaluru 562149
+            Fiestaa Resorts, Bengaluru. <br />
+            Lush lawns, spacious halls, and the perfect stage for love stories.
           </p>
 
           <button

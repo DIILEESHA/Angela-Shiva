@@ -43,11 +43,15 @@
   text-align: center;
 }
 .header_p {
-  font-family: "hel";
+  font-family: "silk";
+
   line-height: 150%;
   text-transform: uppercase;
   text-align: center;
   font-size: 19px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  margin-top: -40px;
   font-style: normal;
 }
 .exact_date {
@@ -63,9 +67,11 @@
   font-weight: 300;
 }
 
-.naughty {
+.naughty,.pagi {
   display: none;
 }
+
+
 @media screen and (max-width: 1057px) {
   .header_grid {
     gap: 0px;
@@ -85,7 +91,19 @@
     margin-top: 50px;
     object-position: center 65%;
   }
+.sagi{
+  display: none;
+}
 
+
+  .pagi{
+    display: flex;
+    padding: 10px;
+  }
+  .header_p{
+  font-size: 12px!important;
+
+}
   .naughty {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -117,7 +135,9 @@
   }
 
   .hg {
-    font-size: 14px !important;
+    /* font-size: 14px !important; */
+
+margin-bottom: 20px!important
   }
   .jur {
     /* height: 60vh; */
