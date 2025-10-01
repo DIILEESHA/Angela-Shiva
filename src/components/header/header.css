@@ -57,13 +57,15 @@
 .exact_date {
   position: absolute;
   inset: 0;
-  top: 20px;
+  top: -10px;
 }
 
 .date {
   font-size: 100px;
   text-align: center;
   font-family: "silk";
+  position: relative;
+  margin-bottom: 50px;
   font-weight: 300;
 }
 

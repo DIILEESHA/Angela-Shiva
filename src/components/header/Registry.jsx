@@ -6,8 +6,8 @@ const Registry = () => {
     <div className="registry_container">
       <div className="r_grid">
         <div className="r_sub">
-          <h2 className="r_title">The Events</h2>
           <div class="image-wrapper vt">
+          <h2 className="r_title domber">The Events</h2>
             <video
               // src={videos}
               src="https://i.imgur.com/uW5Eco8.mp4"
@@ -39,8 +39,8 @@ const Registry = () => {
           </button>
         </div>
         <div className="r_sub">
-          <h2 className="r_title">What to wear</h2>
           <div class="image-wrapper vt">
+          <h2 className="r_title domber">What to wear</h2>
             {/* <img
               src="https://ik.imagekit.io/fh2hj1ayv/Website%20dress%20code.jpg?updatedAt=1747553148257"
               alt=""

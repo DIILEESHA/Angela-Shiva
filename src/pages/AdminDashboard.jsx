@@ -136,32 +136,7 @@ const AdminDashboard = () => {
       ],
       onFilter: (value, record) => record.attendance === value,
     },
-    {
-      title: "Guest Count",
-      dataIndex: "guestCount",
-      key: "guestCount",
-      render: (count) => (count === "2" ? "Plus One" : "Single"),
-    },
-    {
-      title: "Plus One Name",
-      dataIndex: "plusOneName",
-      key: "plusOneName",
-    },
-    {
-      title: "Meal Preference",
-      dataIndex: "mealPreference",
-      key: "mealPreference",
-      render: (pref) => {
-        if (!pref) return "-";
-        const mealMap = {
-          chicken: "Chicken",
-          lamb: "Lamb",
-          fish: "Fish",
-          vegetarian: "Vegetarian",
-        };
-        return mealMap[pref] || pref;
-      },
-    },
+
     {
       title: "Dietary Restrictions",
       dataIndex: "dietaryRestrictions",

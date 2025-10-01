@@ -8,7 +8,8 @@ const Location = () => {
           <h2 className="date maha">location</h2>
         </div>
         <div className="header_sub ty">
-          <p className="header_p">Sunday, February 08, 2026</p>
+           <p className="header_p ">Sunday, February 7th - 9th, 2026</p>
+
         </div>
         <div className="header_sub jur">
           <div class="image-wrappers">
@@ -52,7 +53,7 @@ const Location = () => {
 
       <div className="naughty plyan  ">
         <div className="naughty_sub">
-          <p className="header_p bos">Sunday, February 08, 2026</p>
+          <p className="header_p bos">Sunday, February 7th - 9th, 2026</p>
         </div>
         <div
           className="naughty_sub"

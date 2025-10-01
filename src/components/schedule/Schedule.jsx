@@ -54,7 +54,7 @@ const Schedule = () => {
       slidesPerView: 2, // tablets
     },
     1024: {
-      slidesPerView: 3, // desktops
+      slidesPerView: 5, // desktops
     },
   }}
 >

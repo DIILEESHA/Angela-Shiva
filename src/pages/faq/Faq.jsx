@@ -18,7 +18,10 @@ const Faq = () => {
           answer: (
             <>
               <h4>Fiestaa Resorts, Bengaluru</h4>
-              <p>lush lawns, spacious halls, and the perfect stage for love stories.</p>
+              <p>
+                lush lawns, spacious halls, and the perfect stage for love
+                stories.
+              </p>
             </>
           ),
         },
@@ -31,7 +34,10 @@ const Faq = () => {
                 Once you have RSVP’d we will be booking your stay at either
                 Fiestaa Resorts, The Monarch Hotel, or Harikaa Resort — all of
                 which have been carefully vetted and chosen for your comfortable
-                stay.
+                stay and are in close proximity to Fiestaa. Your stay will be
+                booked from 7th Feb to 9th Feb [early check in and late check
+                out is available, just feel free to let us know]. Once you RSVP,
+                we’ll be in touch with you for your flight details!
               </p>
             </>
           ),
