@@ -9,7 +9,7 @@ const events = [
   { dateBig: "7th", dateLine: "Feb 1pm", title: "Mehndi" },
   { dateBig: "7th", dateLine: "Feb 8pm", title: "Sangeet" },
   { dateBig: "8th", dateLine: "Feb 12:30pm", title: "Haldi" },
-  { dateBig: "8th", dateLine: "Feb 8pm", title: "Baraat & Varmala" },
+  { dateBig: "8th", dateLine: "Feb 8pm", title: "Baraat " },
   { dateBig: "9th", dateLine: "Feb 1am", title: "Phera’s" },
 ];
 
